@@ -5,7 +5,7 @@ on:
     branches: ["main"]
 
 env:
-  STACKROX_CENTRAL_HOST: central-stackrox.apps.cluster-6r75s.6r75s.sandbox3005.opentlc.com
+  STACKROX_CENTRAL_HOST: central-stackrox.apps.cluster-4r74v.4r74v.sandbox2251.opentlc.com
   ROX_API_TOKEN: ${{ secrets.ROX_API_TOKEN }}
   QUAY_IO_REPOSITORY: quay.io/doliveira1277/pipeline-acs
   QUAY_IO_USERNAME: ${{ secrets.QUAY_IO_USERNAME }}
